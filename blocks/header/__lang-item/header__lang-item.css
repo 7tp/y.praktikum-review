@@ -1,0 +1,20 @@
+@import url(./_selected/header__lang-item_selected.css);
+
+.header__lang-item {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+}
+
+.header__lang-item:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 470px) {
+  .header__lang-item {
+    font-size: 18px;
+    line-height: 17px;
+  }
+}

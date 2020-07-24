@@ -1,0 +1,15 @@
+.video__image {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  background-size: contain;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1052px) {
+  .video__image {
+    height: 100%;
+  }
+}

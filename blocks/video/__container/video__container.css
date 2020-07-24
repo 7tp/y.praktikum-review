@@ -1,0 +1,29 @@
+.video__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 18px;
+  max-width: 1184px;
+  margin: 72px auto 0 auto;
+}
+
+@media screen and (max-width: 685px) {
+  .video__container {
+    grid-template-columns: auto;
+    grid-gap: 16px;
+    margin-top: 27px;
+  }
+}
+
+@media screen and (min-width: 686px) and (max-width: 768px) {
+  .video__container {
+    grid-gap: 16px;
+    margin-top: 48px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .video__container {
+    grid-gap: 16px;
+    margin-top: 66px;
+  }
+}

@@ -1,0 +1,20 @@
+.properties__duration {
+  position: absolute;
+  top: 165px;
+  left: 30px;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  font-weight: 300;
+}
+@media screen and (max-width: 885px) {
+  .properties__duration {
+    position: unset;
+  }
+}
+@media screen and (min-width: 886px) and (max-width: 1152px) {
+  .properties__duration {
+    top: 125px;
+  }
+}
+
