@@ -1,0 +1,18 @@
+@import url(./__container/places__container.css);
+@import url(./__place/places__place.css);
+
+.places {
+  padding: 92px 48px 0 48px;
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    padding: 64px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .places {
+    padding: 102px 24px 0 24px;
+  }
+}

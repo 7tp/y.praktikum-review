@@ -1,0 +1,29 @@
+.video__item {
+  position: relative;
+  display: flex;
+  padding-bottom: 55.4%;
+  overflow: hidden;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 370px) {
+  .video__item {
+    padding-bottom: 67%;
+  }
+}
+@media screen and (min-width: 371px) and (max-width: 685px) {
+  .video__item {
+    padding-bottom: 58.3%;
+  }
+}
+@media screen and (min-width: 686px) and (max-width: 768px) {
+  .video__item {
+    padding-bottom: 56.8%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1052px) {
+  .video__item {
+    padding-bottom: 63.16%;
+  }
+}
